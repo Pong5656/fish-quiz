@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="ภาพข้อสอบ: ปลาไม่มีป้ายกำกับ มีลูกศรชี้ตำแหน่งครีบ A B C D ให้ระบุชื่อ">
+  <defs>
+    <linearGradient id="qb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7bc4de"/>
+      <stop offset="55%" stop-color="#3fa2c8"/>
+      <stop offset="100%" stop-color="#1f5776"/>
+    </linearGradient>
+    <linearGradient id="qf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b0ddec"/>
+      <stop offset="100%" stop-color="#2485ad"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" fill="#ffffff"/>
+  <!-- เส้นตารางจาง ๆ ให้ดูเป็นกระดาษข้อสอบ -->
+  <g stroke="#eef3f7" stroke-width="1">
+    <path d="M0 130h900M0 260h900M0 390h900M150 0v520M300 0v520M450 0v520M600 0v520M750 0v520"/>
+  </g>
+
+  <g transform="translate(70,180)">
+    <path d="M300 40 L380 -30 L430 10 L440 45 Z" fill="url(#qf)" stroke="#1f5776" stroke-width="2.5"/>
+    <path d="M120 70 C170 0, 480 -20, 640 60 C700 90, 700 130, 640 160 C480 240, 170 220, 120 150 C105 128, 105 92, 120 70 Z"
+          fill="url(#qb)" stroke="#1f5776" stroke-width="3"/>
+    <path d="M280 165 C300 230, 360 250, 400 225 C370 195, 330 160, 300 155 Z"
+          fill="url(#qf)" stroke="#1f5776" stroke-width="2.5"/>
+    <path d="M400 200 C415 245, 450 258, 480 240 C458 214, 430 198, 410 194 Z"
+          fill="url(#qf)" stroke="#1f5776" stroke-width="2.5"/>
+    <path d="M560 195 C580 240, 620 250, 645 228 C622 205, 595 190, 570 188 Z"
+          fill="url(#qf)" stroke="#1f5776" stroke-width="2.5"/>
+    <path d="M640 60 C710 30, 790 -10, 815 40 C790 105, 720 120, 660 130
+             C720 140, 790 155, 815 220 C790 270, 710 230, 640 160 Z"
+          fill="url(#qf)" stroke="#1f5776" stroke-width="3"/>
+    <path d="M190 45 C165 90, 165 140, 190 180" fill="none" stroke="#0f2836" stroke-width="3" opacity="0.55"/>
+    <path d="M215 45 C190 90, 190 140, 215 180" fill="none" stroke="#0f2836" stroke-width="3" opacity="0.35"/>
+    <circle cx="185" cy="95" r="19" fill="#ffffff" stroke="#1f5776" stroke-width="2.5"/>
+    <circle cx="188" cy="95" r="9" fill="#0f2836"/>
+    <circle cx="191" cy="91" r="3" fill="#ffffff"/>
+    <path d="M118 108 C138 100, 148 112, 140 124" fill="none" stroke="#0f2836" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M235 120 C360 108, 520 112, 645 118" fill="none" stroke="#d5eef5" stroke-width="3" stroke-dasharray="10 7" opacity="0.9"/>
+  </g>
+
+  <!-- ลูกศรชี้ A B C D -->
+  <g stroke="#b91c1c" stroke-width="2.6" fill="none">
+    <!-- A ชี้ครีบหลัง -->
+    <path d="M430 128 L430 96"/>
+    <path d="M424 104 L430 96 L436 104"/>
+    <!-- B ชี้ครีบอก -->
+    <path d="M406 402 L406 366"/>
+    <path d="M400 374 L406 366 L412 374"/>
+    <!-- C ชี้ครีบก้น -->
+    <path d="M700 424 L700 392"/>
+    <path d="M694 400 L700 392 L706 400"/>
+    <!-- D ชี้ครีบหาง -->
+    <path d="M860 210 L882 210"/>
+    <path d="M874 204 L882 210 L874 216"/>
+  </g>
+
+  <g font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">
+    <text x="440" y="90">A</text>
+    <text x="416" y="360">B</text>
+    <text x="710" y="386">C</text>
+    <text x="858" y="216">D</text>
+  </g>
+
+  <!-- กรอบคำถาม -->
+  <rect x="0.5" y="0.5" width="899" height="519" fill="none" stroke="#cbd5e1"/>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="แผนภูมิต้นไม้การจัดจำแนกชั้นของปลา ตั้งแต่ Superclass ถึง Order ที่ต้องรู้จัก">
+  <defs>
+    <style>
+      .box { rx: 8; }
+      .lbl { font-family: system-ui, sans-serif; font-weight: 600; }
+      .sub { font-family: system-ui, sans-serif; font-size: 11.5px; }
+    </style>
+  </defs>
+
+  <rect width="900" height="600" fill="#fbf9f4"/>
+
+  <text x="40" y="44" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#323e49">
+    แผนภูมิต้นไม้การจัดจำแนกชั้นของปลา
+  </text>
+  <text x="40" y="70" font-family="system-ui, sans-serif" font-size="14" fill="#627d94">
+    จุดที่ต้องจำก่อน: ปลาแบ่งเป็นสองกลุ่มใหญ่ด้วย “การมีขากรรไกร” ไม่ใช่ด้วย “กระดูก”
+  </text>
+
+  <!-- เส้นราก -->
+  <path d="M450 96v34" stroke="#adbece" stroke-width="2"/>
+
+  <!-- ระดับ Superclass -->
+  <g>
+    <rect x="90" y="130" width="300" height="52" class="box" fill="#f5f0e4" stroke="#c9ad78" stroke-width="1.5"/>
+    <text x="240" y="152" class="lbl" font-size="14.5" fill="#604733" text-anchor="middle">Superclass Agnatha</text>
+    <text x="240" y="171" class="sub" fill="#76563c" text-anchor="middle">ปลาไม่มีขากรรไกร</text>
+
+    <rect x="510" y="130" width="300" height="52" class="box" fill="#d5eef5" stroke="#3fa2c8" stroke-width="1.5"/>
+    <text x="660" y="152" class="lbl" font-size="14.5" fill="#0f2836" text-anchor="middle">Superclass Gnathostomata</text>
+    <text x="660" y="171" class="sub" fill="#1f5776" text-anchor="middle">ปลามีขากรรไกร</text>
+  </g>
+  <path d="M450 96 C450 112, 240 112, 240 130" stroke="#adbece" stroke-width="2" fill="none"/>
+  <path d="M450 96 C450 112, 660 112, 660 130" stroke="#adbece" stroke-width="2" fill="none"/>
+
+  <!-- Agnatha → classes -->
+  <g>
+    <path d="M240 182v22" stroke="#dbc9a3" stroke-width="2"/>
+    <rect x="60" y="204" width="120" height="48" class="box" fill="#ffffff" stroke="#dbc9a3" stroke-width="1.5"/>
+    <text x="120" y="225" class="lbl" font-size="12.5" fill="#604733" text-anchor="middle">Myxini</text>
+    <text x="120" y="242" class="sub" fill="#916944" text-anchor="middle">แฮกฟิช</text>
+
+    <rect x="190" y="204" width="130" height="48" class="box" fill="#ffffff" stroke="#dbc9a3" stroke-width="1.5"/>
+    <text x="255" y="225" class="lbl" font-size="12.5" fill="#604733" text-anchor="middle">Cephalaspidomorphi</text>
+    <text x="255" y="242" class="sub" fill="#916944" text-anchor="middle">แลมเพรย์</text>
+
+    <rect x="330" y="204" width="130" height="48" class="box" fill="#ffffff" stroke="#dbc9a3" stroke-width="1.5"/>
+    <text x="395" y="225" class="lbl" font-size="12.5" fill="#604733" text-anchor="middle">Pteraspidomorphi</text>
+    <text x="395" y="242" class="sub" fill="#916944" text-anchor="middle">ปลาโบราณ (สูญพันธุ์)</text>
+    <path d="M240 182 h-120 v22M240 182 v22M240 182 h155 v22" stroke="#dbc9a3" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Gnathostomata → Placodermi + Chondrichthyes + Osteichthyes -->
+  <g>
+    <path d="M660 182v20" stroke="#3fa2c8" stroke-width="2"/>
+
+    <rect x="440" y="202" width="140" height="46" class="box" fill="#ffffff" stroke="#b0ddec" stroke-width="1.5"/>
+    <text x="510" y="222" class="lbl" font-size="12.5" fill="#0f2836" text-anchor="middle">Placodermi</text>
+    <text x="510" y="239" class="sub" fill="#1f5776" text-anchor="middle">ปลากระดอง (สูญพันธุ์)</text>
+
+    <rect x="596" y="202" width="152" height="46" class="box" fill="#eef8fb" stroke="#3fa2c8" stroke-width="2"/>
+    <text x="672" y="222" class="lbl" font-size="12.5" fill="#0f2836" text-anchor="middle">Chondrichthyes</text>
+    <text x="672" y="239" class="sub" fill="#1f5776" text-anchor="middle">ปลากระดูกอ่อน</text>
+
+    <rect x="764" y="202" width="96" height="46" class="box" fill="#ffffff" stroke="#b0ddec" stroke-width="1.5"/>
+    <text x="812" y="222" class="lbl" font-size="11.5" fill="#0f2836" text-anchor="middle">Osteichthyes</text>
+    <text x="812" y="239" class="sub" fill="#1f5776" text-anchor="middle">กระดูกแข็ง</text>
+
+    <path d="M660 182 h-150 v20M660 182 v20M660 182 h152 v20" stroke="#3fa2c8" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Chondrichthyes → subclasses -->
+  <g>
+    <path d="M672 248v20" stroke="#3fa2c8" stroke-width="2"/>
+
+    <rect x="560" y="268" width="150" height="50" class="box" fill="#ffffff" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="635" y="289" class="lbl" font-size="12.5" fill="#0f2836" text-anchor="middle">Subclass Holocephali</text>
+    <text x="635" y="307" class="sub" fill="#1f5776" text-anchor="middle">ช่องเหงือก 4 ช่อง เปิดเป็นช่องเดียว</text>
+
+    <rect x="724" y="268" width="150" height="50" class="box" fill="#ffffff" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="799" y="289" class="lbl" font-size="12.5" fill="#0f2836" text-anchor="middle">Subclass Elasmobranchii</text>
+    <text x="799" y="307" class="sub" fill="#1f5776" text-anchor="middle">ช่องเหงือก 5–7 ช่องแยกกัน</text>
+    <path d="M672 248 h-37 v20M672 248 h127 v20" stroke="#7bc4de" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Holocephali order -->
+  <g>
+    <path d="M635 318v18" stroke="#b0ddec" stroke-width="2"/>
+    <rect x="548" y="336" width="174" height="46" class="box" fill="#eef8fb" stroke="#b0ddec" stroke-width="1.5"/>
+    <text x="635" y="356" class="lbl" font-size="12.5" fill="#0f2836" text-anchor="middle">Chimaeriformes</text>
+    <text x="635" y="373" class="sub" fill="#1f5776" text-anchor="middle">ปลาหนู / แรทฟิช</text>
+  </g>
+
+  <!-- Elasmobranchii orders -->
+  <g fill="#eef8fb" stroke="#b0ddec" stroke-width="1.5">
+    <rect x="30" y="336" width="112" height="42" class="box"/>
+    <rect x="150" y="336" width="118" height="42" class="box"/>
+    <rect x="276" y="336" width="118" height="42" class="box"/>
+    <rect x="402" y="336" width="112" height="42" class="box"/>
+  </g>
+  <g fill="#eef8fb" stroke="#b0ddec" stroke-width="1.5">
+    <rect x="30" y="390" width="112" height="42" class="box"/>
+    <rect x="150" y="390" width="118" height="42" class="box"/>
+    <rect x="276" y="390" width="118" height="42" class="box"/>
+    <rect x="402" y="390" width="112" height="42" class="box"/>
+  </g>
+
+  <g class="lbl" font-size="11.5" fill="#0f2836" text-anchor="middle">
+    <text x="86" y="362">Heterodontiformes</text>
+    <text x="209" y="362">Orectolobiformes</text>
+    <text x="335" y="362">Carcharhiniformes</text>
+    <text x="458" y="362">Lamniformes</text>
+    <text x="86" y="416">Hexanchiformes</text>
+    <text x="209" y="416">Squaliformes</text>
+    <text x="335" y="416">Squatiniformes</text>
+    <text x="458" y="416">Pristiophoriformes</text>
+  </g>
+  <g class="sub" fill="#627d94" text-anchor="middle">
+    <text x="86" y="374">ฉลามหัวทู่</text>
+    <text x="209" y="374">ฉลามวาฬ/คาร์เพต</text>
+    <text x="335" y="374">ฉลามหัวค้อน/เสือ</text>
+    <text x="458" y="374">ฉลามทราย</text>
+    <text x="86" y="428">ฉลาม 6–7 เหงือก</text>
+    <text x="209" y="428">ฉลามน้ำลึก</text>
+    <text x="335" y="428">ฉลามเทวดา</text>
+    <text x="458" y="428">ปลาฉนาก</text>
+  </g>
+
+  <path d="M799 318 C799 326, 458 326, 458 336M799 318 C799 326, 86 326, 86 336" stroke="#b0ddec" stroke-width="2" fill="none"/>
+  <path d="M86 378v12M209 378v12M335 378v12M458 378v12" stroke="#b0ddec" stroke-width="2"/>
+
+  <!-- หมายเหตุ -->
+  <g>
+    <rect x="30" y="462" width="840" height="108" rx="10" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="52" y="488" class="lbl" font-size="13.5" fill="#1f5776">
+      จุดที่ข้อสอบชอบถามจากแผนภูมินี้
+    </text>
+    <text x="52" y="512" font-size="13" fill="#323e49">
+      · สองกลุ่มใหญ่แยกด้วยการมี/ไม่มีขากรรไกร (Agnatha กับ Gnathostomata) ไม่ใช่ด้วยกระดูก
+    </text>
+    <text x="52" y="534" font-size="13" fill="#323e49">
+      · Holocephali มีช่องเหงือก 4 ช่องแต่เปิดเป็นช่องเดียว ต่างจาก Elasmobranchii ที่เปิด 5–7 ช่อง
+    </text>
+    <text x="52" y="556" font-size="13" fill="#323e49">
+      · ชื่อ Selachii ใช้แทน Elasmobranchii ได้ · ปลาฉนากอยู่ในกลุ่ม Elasmobranchii ไม่ใช่ปลากระดูกแข็ง
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-label="แผนภาพเปรียบเทียบระบบเพาะเลี้ยงสัตว์น้ำสี่แบบ: บ่อดิน กระชัง ไบโอฟลอค และระบบน้ำหมุนเวียน">
+  <rect width="900" height="470" fill="#fbf9f4"/>
+
+  <text x="40" y="44" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#323e49">
+    ระบบเพาะเลี้ยงสัตว์น้ำและหลักการทำงาน
+  </text>
+  <text x="40" y="70" font-family="system-ui, sans-serif" font-size="14" fill="#627d94">
+    เลือกอ่านจากบนซ้าย: บ่อดิน → กระชัง → ไบโอฟลอค → ระบบน้ำหมุนเวียน (เรียงตามระดับการควบคุม)
+  </text>
+
+  <!-- ── 1. บ่อดิน ── -->
+  <g>
+    <rect x="30" y="92" width="200" height="168" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="48" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f5776">
+      บ่อดิน
+    </text>
+    <path d="M50 176 L190 176 L206 214 L34 214 Z" fill="#a16207" opacity="0.35"/>
+    <path d="M50 176 L190 176 L190 186 L50 186 Z" fill="#3fa2c8" opacity="0.6"/>
+    <path d="M50 180 q20 -8 40 0 q20 8 40 0 q20 -8 40 0 q20 8 20 0" fill="none" stroke="#7bc4de" stroke-width="2"/>
+    <ellipse cx="98" cy="196" rx="13" ry="7" fill="#1f5776" opacity="0.85"/>
+    <ellipse cx="138" cy="202" rx="11" ry="6" fill="#1f5776" opacity="0.7"/>
+    <text x="48" y="238" font-family="system-ui, sans-serif" font-size="11.5" fill="#4d657a">
+      ต้นทุนต่ำ · อาหารธรรมชาติมาก
+    </text>
+    <text x="48" y="253" font-family="system-ui, sans-serif" font-size="11.5" fill="#92400e">
+      ควบคุมคุณภาพน้ำยาก
+    </text>
+  </g>
+
+  <!-- ── 2. กระชัง ── -->
+  <g>
+    <rect x="250" y="92" width="200" height="168" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="268" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f5776">
+      กระชัง
+    </text>
+    <rect x="266" y="170" width="168" height="46" fill="#3fa2c8" opacity="0.25"/>
+    <path d="M266 170h168M266 186h168M266 202h168" stroke="#2485ad" stroke-width="1.2" opacity="0.6"/>
+    <path d="M266 216 L300 240 M300 216 L266 240 M334 216 L368 240 M368 216 L334 240 M402 216 L434 240 M434 216 L402 240"
+          stroke="#1f5776" stroke-width="3" stroke-linecap="round"/>
+    <path d="M282 194 q18 -8 34 0" fill="none" stroke="#0f2836" stroke-width="2.5"/>
+    <path d="M330 200 q16 -7 30 0" fill="none" stroke="#0f2836" stroke-width="2.5"/>
+    <text x="268" y="240" font-family="system-ui, sans-serif" font-size="11.5" fill="#4d657a">
+      ลงทุนต่ำ · ใช้แหล่งน้ำเดิม
+    </text>
+    <text x="268" y="253" font-family="system-ui, sans-serif" font-size="11.5" fill="#92400e">
+      ของเสียลงแหล่งน้ำตรง ๆ
+    </text>
+  </g>
+
+  <!-- ── 3. ไบโอฟลอค ── -->
+  <g>
+    <rect x="470" y="92" width="200" height="168" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="488" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f5776">
+      ไบโอฟลอค
+    </text>
+    <rect x="486" y="130" width="168" height="86" rx="8" fill="#d5eef5" opacity="0.5"/>
+    <g fill="#1f5776" opacity="0.75">
+      <circle cx="504" cy="150" r="3.5"/>
+      <circle cx="524" cy="164" r="4"/>
+      <circle cx="548" cy="148" r="3"/>
+      <circle cx="572" cy="162" r="4.2"/>
+      <circle cx="598" cy="150" r="3.2"/>
+      <circle cx="620" cy="166" r="3.8"/>
+      <circle cx="512" cy="184" r="3"/>
+      <circle cx="540" cy="192" r="4"/>
+      <circle cx="570" cy="186" r="3.4"/>
+      <circle cx="600" cy="196" r="3.6"/>
+      <circle cx="630" cy="186" r="3"/>
+    </g>
+    <path d="M500 210 q20 -7 40 0 q20 7 40 0 q20 -7 40 0" fill="none" stroke="#3fa2c8" stroke-width="2"/>
+    <text x="488" y="240" font-family="system-ui, sans-serif" font-size="11.5" fill="#4d657a">
+      ใช้น้ำน้อย · ก้อนจุลินทรีย์เป็นอาหาร
+    </text>
+    <text x="488" y="253" font-family="system-ui, sans-serif" font-size="11.5" fill="#92400e">
+      ต้องคุม C:N และออกซิเจนตลอด
+    </text>
+  </g>
+
+  <!-- ── 4. RAS ── -->
+  <g>
+    <rect x="690" y="92" width="180" height="168" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="708" y="118" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f5776">
+      น้ำหมุนเวียน (RAS)
+    </text>
+    <rect x="706" y="132" width="60" height="46" rx="6" fill="#d5eef5" stroke="#3fa2c8" stroke-width="1.5"/>
+    <text x="736" y="160" font-family="system-ui, sans-serif" font-size="10.5" fill="#1f5776" text-anchor="middle">
+      บ่อเลี้ยง
+    </text>
+    <rect x="772" y="132" width="80" height="46" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="812" y="155" font-family="system-ui, sans-serif" font-size="10.5" fill="#166534" text-anchor="middle">
+      กรองชีวภาพ
+    </text>
+    <text x="812" y="169" font-family="system-ui, sans-serif" font-size="9.5" fill="#15803d" text-anchor="middle">
+      Nitrosomonas/Nitrobacter
+    </text>
+    <path d="M766 148h6" stroke="#2485ad" stroke-width="2.5" marker-end="url(#ar2)"/>
+    <defs>
+      <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+        <path d="M0 0L10 5L0 10z" fill="#2485ad"/>
+      </marker>
+    </defs>
+    <path d="M852 152 q18 0 18 -14 q0 -14 -18 -14 H712 q-18 0 -18 14 q0 14 18 14"
+          fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="776" y="120" font-family="system-ui, sans-serif" font-size="9.5" fill="#15803d" text-anchor="middle">
+      น้ำกลับมาใช้ซ้ำ
+    </text>
+    <text x="708" y="200" font-family="system-ui, sans-serif" font-size="11.5" fill="#4d657a">
+      ควบคุมได้สูงสุด · เลี้ยงในเมืองได้
+    </text>
+    <text x="708" y="214" font-family="system-ui, sans-serif" font-size="11.5" fill="#92400e">
+      ต้นทุนระบบและไฟฟ้าสูง
+    </text>
+    <text x="708" y="236" font-family="system-ui, sans-serif" font-size="11.5" fill="#166534">
+      ใช้น้ำน้อยที่สุด
+    </text>
+  </g>
+
+  <!-- แกนระดับการควบคุม -->
+  <g>
+    <line x1="60" y1="300" x2="840" y2="300" stroke="#adbece" stroke-width="2"/>
+    <path d="M840 294l10 6-10 6" fill="#adbece"/>
+    <text x="60" y="322" font-family="system-ui, sans-serif" font-size="12.5" fill="#627d94">
+      ควบคุมได้น้อย · พึ่งธรรมชาติ
+    </text>
+    <text x="840" y="322" font-family="system-ui, sans-serif" font-size="12.5" fill="#627d94" text-anchor="end">
+      ควบคุมได้มาก · ลงทุนสูง
+    </text>
+  </g>
+
+  <!-- สรุปการเลือกใช้ -->
+  <g>
+    <rect x="30" y="346" width="840" height="104" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="52" y="372" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#1f5776">
+      หลักเลือกใช้ที่ต้องตอบให้ได้ในห้องสอบ
+    </text>
+    <text x="52" y="396" font-family="system-ui, sans-serif" font-size="12.5" fill="#323e49">
+      · ต้องการใช้น้ำน้อยและควบคุมโรคได้ → ระบบน้ำหมุนเวียน (RAS) เป็นคำตอบที่ตรงที่สุด
+    </text>
+    <text x="52" y="418" font-family="system-ui, sans-serif" font-size="12.5" fill="#323e49">
+      · ต้องการลดต้นทุนค่าอาหารและใช้แหล่งน้ำเดิม → กระชัง หรือบ่อดินที่มีอาหารธรรมชาติมาก
+    </text>
+    <text x="52" y="440" font-family="system-ui, sans-serif" font-size="12.5" fill="#323e49">
+      · ต้องการเลี้ยงหนาแน่นในพื้นที่จำกัด แล้วใช้ของเสียเป็นอาหาร → ไบโอฟลอค (ต้องคุม C:N และออกซิเจน)
+    </text>
+  </g>
+</svg>

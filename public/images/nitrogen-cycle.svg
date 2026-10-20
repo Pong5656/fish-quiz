@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-label="แผนภาพวัฏจักรไนโตรเจนในบ่อเลี้ยงสัตว์น้ำ พร้อมแบคทีเรียที่เปลี่ยนรูปสารแต่ละขั้น">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#2485ad"/>
+    </marker>
+  </defs>
+
+  <rect width="880" height="420" fill="#fbf9f4"/>
+
+  <text x="40" y="44" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#323e49">
+    วัฏจักรไนโตรเจนในบ่อเลี้ยงสัตว์น้ำ
+  </text>
+  <text x="40" y="70" font-family="system-ui, sans-serif" font-size="14" fill="#627d94">
+    เรียงจากรูปที่มีพิษสูงไปหาพิษต่ำ · ตัวเลขบอกความเป็นพิษต่อสัตว์น้ำโดยประมาณ
+  </text>
+
+  <!-- กล่อง 1: แอมโมเนีย -->
+  <g>
+    <rect x="50" y="120" width="200" height="112" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="150" y="152" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#991b1b" text-anchor="middle">
+      แอมโมเนีย
+    </text>
+    <text x="150" y="174" font-family="system-ui, sans-serif" font-size="14" fill="#b91c1c" text-anchor="middle">
+      NH₃ / NH₄⁺
+    </text>
+    <text x="150" y="200" font-family="system-ui, sans-serif" font-size="12.5" fill="#7f1d1d" text-anchor="middle">
+      พิษสูงมาก
+    </text>
+    <text x="150" y="219" font-family="system-ui, sans-serif" font-size="11.5" fill="#991b1b" text-anchor="middle">
+      รูป NH₃ ยิ่งเป็นพิษเมื่อ pH สูง
+    </text>
+  </g>
+
+  <!-- กล่อง 2: ไนไตรต์ -->
+  <g>
+    <rect x="340" y="120" width="200" height="112" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    <text x="440" y="152" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#9a3412" text-anchor="middle">
+      ไนไตรต์
+    </text>
+    <text x="440" y="174" font-family="system-ui, sans-serif" font-size="14" fill="#c2410c" text-anchor="middle">
+      NO₂⁻
+    </text>
+    <text x="440" y="200" font-family="system-ui, sans-serif" font-size="12.5" fill="#7c2d12" text-anchor="middle">
+      พิษสูง
+    </text>
+    <text x="440" y="219" font-family="system-ui, sans-serif" font-size="11.5" fill="#9a3412" text-anchor="middle">
+      รบกวนการรับ O₂ ของเลือด
+    </text>
+  </g>
+
+  <!-- กล่อง 3: ไนเตรต -->
+  <g>
+    <rect x="630" y="120" width="200" height="112" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="730" y="152" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#166534" text-anchor="middle">
+      ไนเตรต
+    </text>
+    <text x="730" y="174" font-family="system-ui, sans-serif" font-size="14" fill="#15803d" text-anchor="middle">
+      NO₃⁻
+    </text>
+    <text x="730" y="200" font-family="system-ui, sans-serif" font-size="12.5" fill="#14532d" text-anchor="middle">
+      พิษต่ำ
+    </text>
+    <text x="730" y="219" font-family="system-ui, sans-serif" font-size="11.5" fill="#166534" text-anchor="middle">
+      แต่สะสมมากทำให้สาหร่าย bloom
+    </text>
+  </g>
+
+  <!-- ลูกศร 1→2 -->
+  <g>
+    <path d="M252 176H336" stroke="#2485ad" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="262" y="104" width="66" height="46" rx="7" fill="#ffffff" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="295" y="122" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1f5776" text-anchor="middle">
+      Nitrosomonas
+    </text>
+    <text x="295" y="139" font-family="system-ui, sans-serif" font-size="10.5" fill="#627d94" text-anchor="middle">
+      เปลี่ยน NH₃
+    </text>
+  </g>
+
+  <!-- ลูกศร 2→3 -->
+  <g>
+    <path d="M542 176H626" stroke="#2485ad" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="552" y="104" width="66" height="46" rx="7" fill="#ffffff" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="585" y="122" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#1f5776" text-anchor="middle">
+      Nitrobacter
+    </text>
+    <text x="585" y="139" font-family="system-ui, sans-serif" font-size="10.5" fill="#627d94" text-anchor="middle">
+      เปลี่ยน NO₂⁻
+    </text>
+  </g>
+
+  <!-- ที่มาของแอมโมเนีย -->
+  <g>
+    <rect x="50" y="272" width="330" height="118" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="70" y="298" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#323e49">
+      ที่มาของแอมโมเนียในบ่อ
+    </text>
+    <text x="70" y="322" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · ของเสียที่ปลาขับออกทางเหงือกและไต
+    </text>
+    <text x="70" y="344" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · อาหารที่ปลากินไม่หมด แล้วเน่าเสีย
+    </text>
+    <text x="70" y="366" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · มูลสัตว์น้ำและซากพืชที่ย่อยสลายในตะกอน
+    </text>
+  </g>
+
+  <!-- ทางออก -->
+  <g>
+    <rect x="410" y="272" width="420" height="118" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="430" y="298" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#166534">
+      ทางออกของไนโตรเจนและข้อควรระวัง
+    </text>
+    <text x="430" y="322" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · เปลี่ยนน้ำ → เจือจางความเข้มข้นทุกรูปลงพร้อมกัน
+    </text>
+    <text x="430" y="344" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · ปลูกพืชน้ำหรือผักในระบบ aquaponics → ใช้ไนเตรตเป็นปุ๋ย
+    </text>
+    <text x="430" y="366" font-family="system-ui, sans-serif" font-size="12.5" fill="#4d657a">
+      · อย่าใช้ยาปฏิชีวนะพร่ำเพรื่อ เพราะฆ่า Nitrosomonas และ Nitrobacter ที่กรองน้ำให้
+    </text>
+  </g>
+
+  <!-- เตือน pH -->
+  <g>
+    <rect x="50" y="240" width="780" height="24" rx="6" fill="#ffedd5" opacity="0.55"/>
+    <text x="440" y="257" font-family="system-ui, sans-serif" font-size="12.5" fill="#9a3412" text-anchor="middle">
+      เมื่อ pH และอุณหภูมิสูงขึ้น แอมโมเนียจะเปลี่ยนเป็นรูป NH₃ ที่ไม่แตกตัว ซึ่งเป็นพิษรุนแรงที่สุด
+    </text>
+  </g>
+</svg>

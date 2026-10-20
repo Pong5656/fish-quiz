@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-label="แผนภาพกลไกทวนกระแสในเหงือกปลา เปรียบเทียบกับกระแสทิศเดียวกัน">
+  <defs>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b0ddec" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#eef8fb" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="bloodGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fecaca"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="560" fill="#fbf9f4"/>
+
+  <text x="40" y="46" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#323e49">
+    กลไกทวนกระแสที่เหงือกปลา (countercurrent exchange)
+  </text>
+  <text x="40" y="72" font-family="system-ui, sans-serif" font-size="14" fill="#627d94">
+    น้ำและเลือดไหลสวนทางกัน ทำให้ออกซิเจนแพร่เข้าเลือดได้ตลอดทาง ไม่มีจุดสมดุลกลางทาง
+  </text>
+
+  <!-- ── แผงที่ 1: ทวนกระแส ── -->
+  <g>
+    <rect x="40" y="100" width="380" height="220" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="60" y="130" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1f5776">
+      ก. ทวนกระแส (สวนทาง)
+    </text>
+
+    <!-- ท่อน้ำ -->
+    <rect x="70" y="150" width="320" height="52" rx="8" fill="url(#waterGrad)" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="230" y="182" font-family="system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1f5776" text-anchor="middle">
+      น้ำไหลผ่าน lamella
+    </text>
+    <path d="M62 176h12M370 176h12" stroke="#2485ad" stroke-width="3"/>
+    <path d="M380 170l8 6-8 6" fill="#2485ad"/>
+
+    <!-- ท่อเลือด -->
+    <rect x="70" y="212" width="320" height="52" rx="8" fill="url(#bloodGrad)" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="230" y="244" font-family="system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="middle">
+      เลือดไหลในทิศตรงข้าม
+    </text>
+    <path d="M62 238h12M370 238h12" stroke="#b91c1c" stroke-width="3"/>
+    <path d="M62 232l-8 6 8 6" fill="#b91c1c"/>
+
+    <!-- ลูกศรแพร่ -->
+    <g stroke="#16a34a" stroke-width="2.2" fill="none">
+      <path d="M100 205v-4"/>
+      <path d="M140 205v-4"/>
+      <path d="M180 205v-4"/>
+      <path d="M220 205v-4"/>
+      <path d="M260 205v-4"/>
+      <path d="M300 205v-4"/>
+      <path d="M340 205v-4"/>
+    </g>
+    <text x="230" y="292" font-family="system-ui, sans-serif" font-size="12.5" fill="#16a34a" text-anchor="middle">
+      O₂ แพร่เข้าเลือดได้ทุกช่วงความยาวของ lamella
+    </text>
+    <text x="230" y="312" font-family="system-ui, sans-serif" font-size="12.5" fill="#1f5776" text-anchor="middle">
+      ดึงออกซิเจนได้เกิน 80% ของที่ส่งเข้าไป
+    </text>
+  </g>
+
+  <!-- ── แผงที่ 2: กระแสทิศเดียวกัน ── -->
+  <g>
+    <rect x="460" y="100" width="380" height="220" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="480" y="130" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#92400e">
+      ข. กระแสทิศเดียวกัน (ไม่มีจริงในปลา)
+    </text>
+    <rect x="490" y="150" width="320" height="52" rx="8" fill="url(#waterGrad)" stroke="#7bc4de" stroke-width="1.5"/>
+    <text x="650" y="182" font-family="system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#1f5776" text-anchor="middle">
+      น้ำไหลผ่าน lamella
+    </text>
+    <rect x="490" y="212" width="320" height="52" rx="8" fill="url(#bloodGrad)" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="650" y="244" font-family="system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="middle">
+      เลือดไหลทิศเดียวกัน
+    </text>
+    <path d="M482 176h12M790 176h12" stroke="#2485ad" stroke-width="3"/>
+    <path d="M800 170l8 6-8 6" fill="#2485ad"/>
+    <path d="M482 238h12M790 238h12" stroke="#b91c1c" stroke-width="3"/>
+    <path d="M800 232l8 6-8 6" fill="#b91c1c"/>
+
+    <!-- จุดสมดุล -->
+    <line x1="650" y1="150" x2="650" y2="264" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <circle cx="650" cy="176" r="5" fill="#f59e0b"/>
+    <text x="650" y="292" font-family="system-ui, sans-serif" font-size="12.5" fill="#92400e" text-anchor="middle">
+      จุดสมดุล (ความเข้มข้นเท่ากัน) → ถ่ายก๊าซได้ไม่เกินครึ่ง
+    </text>
+    <text x="650" y="312" font-family="system-ui, sans-serif" font-size="12.5" fill="#92400e" text-anchor="middle">
+      จึงเป็นเหตุผลที่ปลาไม่ใช้แบบนี้
+    </text>
+  </g>
+
+  <!-- ── ส่วนล่าง: โครงสร้างเหงือก ── -->
+  <g>
+    <rect x="40" y="340" width="800" height="180" rx="12" fill="#ffffff" stroke="#d3dde7" stroke-width="1.5"/>
+    <text x="60" y="370" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1f5776">
+      โครงสร้างเหงือกและทิศทางการไหลของน้ำ
+    </text>
+
+    <!-- แผ่นเหงือกโค้ง -->
+    <path d="M110 400 C130 450, 130 480, 110 500" fill="none" stroke="#1f5776" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- ซี่เหงือก -->
+    <g stroke="#2485ad" stroke-width="3" stroke-linecap="round">
+      <path d="M118 415l-26 -8"/>
+      <path d="M122 437l-28 -4"/>
+      <path d="M124 462l-28 2"/>
+      <path d="M122 486l-28 6"/>
+    </g>
+    <text x="60" y="415" font-family="system-ui, sans-serif" font-size="12" fill="#2485ad" text-anchor="end">
+      gill raker
+    </text>
+
+    <!-- ฟิลาเมนต์ -->
+    <rect x="140" y="410" width="90" height="80" rx="7" fill="#d5eef5" stroke="#3fa2c8" stroke-width="2"/>
+    <text x="185" y="456" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#1f5776" text-anchor="middle">
+      filament
+    </text>
+
+    <!-- lamellae -->
+    <g stroke="#2485ad" stroke-width="1.8">
+      <path d="M145 418h80M145 430h80M145 442h80M145 454h80M145 466h80M145 478h80"/>
+    </g>
+    <text x="250" y="425" font-family="system-ui, sans-serif" font-size="12.5" fill="#1f5776">
+      lamellae = แผ่นย่อยที่เพิ่มพื้นที่ผิวแลกเปลี่ยนก๊าซ
+    </text>
+
+    <!-- ลูกศรน้ำ -->
+    <path d="M300 450h60" stroke="#2485ad" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M366 444l10 6-10 6" fill="#2485ad"/>
+    <text x="330" y="438" font-family="system-ui, sans-serif" font-size="12.5" fill="#2485ad" text-anchor="middle">
+      น้ำเข้า
+    </text>
+
+    <text x="440" y="418" font-family="system-ui, sans-serif" font-size="13" fill="#323e49">
+      ลำดับการไหล: ปาก → ซี่เหงือก → lamellae → ช่องเหงือกด้านหลัง
+    </text>
+    <text x="440" y="444" font-family="system-ui, sans-serif" font-size="13" fill="#323e49">
+      เป็นทางเดียว (one-way) ไม่ไหลย้อน เพราะใช้กล้ามเนื้อปั๊มน้ำ
+    </text>
+    <text x="440" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#323e49">
+      กลไกดูดน้ำเข้าปาก–ดันออกช่องเหงือก = buccal–opercular pump
+    </text>
+    <text x="440" y="496" font-family="system-ui, sans-serif" font-size="13" fill="#92400e">
+      ถ้าน้ำไหลย้อนหรือเลือดไหลทิศเดียวกัน ประสิทธิภาพจะลดลงทันที
+    </text>
+  </g>
+</svg>
