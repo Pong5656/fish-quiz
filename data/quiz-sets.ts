@@ -136,7 +136,19 @@ const set9: QuizSet = {
   questions: shuffleWithSeed(PHOTO_QUESTIONS, 97),
 };
 
-export const QUIZ_SETS: QuizSet[] = [set1, set2, set3, set4, set5, set6, set7, set8, set9];
+/** ชุดที่ 10 — เจาะลึกสัตว์น้ำในป่าชายเลนคลองกาพวน */
+const set10: QuizSet = {
+  id: "kampuan-set",
+  title: "ชุดที่ 10 — เจาะลึก: สัตว์น้ำในป่าชายเลนคลองกาพวน ระนอง",
+  description:
+    "ชุดข้อสอบที่เจาะกรณีศึกษาจริงจากเอกสารเผยแพร่ของสถานีวิจัยเพื่อการพัฒนาชายฝั่งอันดามัน คณะประมง มก. ครอบคลุมพื้นที่ศึกษา วิธีสำรวจและเก็บรักษาตัวอย่าง กลุ่มสัตว์น้ำที่พบ และบทเรียนจากสึนามิ 2547 เฉลยทีละข้อพร้อมคำอธิบาย",
+  kind: "เจาะลึก",
+  minutes: 15,
+  mode: "reveal",
+  questions: QUESTION_BANK.filter((q) => q.topic === "kampuan-fauna"),
+};
+
+export const QUIZ_SETS: QuizSet[] = [set1, set2, set3, set4, set5, set6, set7, set8, set9, set10];
 
 export function getQuizSet(id: string): QuizSet | undefined {
   return QUIZ_SETS.find((s) => s.id === id);

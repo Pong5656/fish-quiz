@@ -9,6 +9,7 @@ const NAV = [
   { href: "/path", label: "เส้นทางอ่าน" },
   { href: "/topics", label: "เนื้อหา" },
   { href: "/photos", label: "คลังภาพ" },
+  { href: "/species", label: "รายชื่อชนิด" },
   { href: "/quiz", label: "ข้อสอบจำลอง" },
   { href: "/flashcards", label: "บัตรคำ" },
   { href: "/tricks", label: "ทริกการแข่ง" },

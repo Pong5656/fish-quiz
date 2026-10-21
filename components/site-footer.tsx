@@ -63,6 +63,11 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link href="/species" className="text-ink-600 hover:text-sea-700">
+                รายชื่อสัตว์น้ำคลองกาพวน
+              </Link>
+            </li>
+            <li>
               <Link href="/quiz/photo-set" className="text-ink-600 hover:text-sea-700">
                 ข้อสอบถามจากภาพ
               </Link>

@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ไฟล์ต้นฉบับขนาดใหญ่ (PDF) ไม่เก็บใน git
+/data-source/*.pdf

@@ -1,0 +1,676 @@
+{
+ "source": "สถานีวิจัยเพื่อการพัฒนาชายฝั่งอันดามัน คณะประมง มหาวิทยาลัยเกษตรศาสตร์",
+ "isbn": "978-616-278-174-2",
+ "invertebrates": [
+  {
+   "family": "Buccinidae",
+   "sci": "Babylonia spirata",
+   "en": "Spiral babylone",
+   "th": "หอยหมาก"
+  },
+  {
+   "family": "Nassariidae",
+   "sci": "Nassarius pullus",
+   "en": "Nassa mud snail",
+   "th": "หอยปากกระจาด"
+  },
+  {
+   "family": "Melongenidae",
+   "sci": "Pugilina cochlidium",
+   "en": "Spiral melongena",
+   "th": "หอยโมฬี"
+  },
+  {
+   "family": "Ellobiidae",
+   "sci": "Cassidula aurisfelis",
+   "en": "Cat's ear cassidula",
+   "th": "หอยหูแมว"
+  },
+  {
+   "family": "Ellobiidae",
+   "sci": "Cassidula nucleus",
+   "en": "Nucleus cassidula",
+   "th": "หอยปากเบี้ยวลาย"
+  },
+  {
+   "family": "Ellobiidae",
+   "sci": "Ellobium aurisjudae",
+   "en": "Judas ear cassidula",
+   "th": "หอยนน"
+  },
+  {
+   "family": "Ellobiidae",
+   "sci": "Ellobium aurismidae",
+   "en": "Midas ear cassidula",
+   "th": "หอยนน"
+  },
+  {
+   "family": "Arcidae",
+   "sci": "Trgillarca granosa",
+   "en": "Granular ark",
+   "th": "หอยแครง"
+  },
+  {
+   "family": "Mytilidae",
+   "sci": "Perna viridis",
+   "en": "Asian green mussel",
+   "th": "หอยแมลงภู่"
+  },
+  {
+   "family": "Solenidae",
+   "sci": "Pharella acutidens",
+   "en": "Sharp razor clam",
+   "th": "หอยหลอด"
+  },
+  {
+   "family": "Corbiculidae",
+   "sci": "Polymesoda erosa",
+   "en": "Common geloina",
+   "th": "หอยกัน"
+  },
+  {
+   "family": "Veneridae",
+   "sci": "Paphia gallus",
+   "en": "Rooster venus",
+   "th": "หอยทราย"
+  },
+  {
+   "family": "Teredinidae",
+   "sci": "Teredo sp.",
+   "en": "Shipworm",
+   "th": "เพรียงเจาะไม้"
+  },
+  {
+   "family": "Limulidae",
+   "sci": "Tachypleus gigas",
+   "en": "Triangle-tailed horseshoe crab",
+   "th": "แมงดาจาน"
+  },
+  {
+   "family": "Penaeidae",
+   "sci": "Fenneropenaeus merguiensis",
+   "en": "Banana prawn",
+   "th": "กุ้งแชบ๊วย"
+  },
+  {
+   "family": "Thalassinidae",
+   "sci": "Thalassina anomala",
+   "en": "Mud lobster",
+   "th": "แม่หอบ"
+  },
+  {
+   "family": "Upogebiidae",
+   "sci": "Wolffogebia phuketensis",
+   "en": "Mangrove mud shrimp",
+   "th": "แม่หอบน้อย"
+  },
+  {
+   "family": "Coenobitidae",
+   "sci": "Coenobita violascens",
+   "en": "Land hermit crab",
+   "th": "ปูเสฉวนบก"
+  },
+  {
+   "family": "Diogenidae",
+   "sci": "Clibanarius longitarsus",
+   "en": "Long-legged hermit crab",
+   "th": "ปูเสฉวนขายาว"
+  },
+  {
+   "family": "Calappidae",
+   "sci": "Matuta planipes",
+   "en": "Flower moon crab",
+   "th": "ปูหนุมานลายแดง"
+  },
+  {
+   "family": "Vanuridae",
+   "sci": "Metaplax crenulata",
+   "en": "Long-armed signaller crab",
+   "th": "ปูแสมขาฟันเลื่อย"
+  },
+  {
+   "family": "Menippidae",
+   "sci": "Myomenippe hardwickii",
+   "en": "Stone or Thunder crab",
+   "th": "ปูใบ้ตาดา"
+  },
+  {
+   "family": "Grapsidae",
+   "sci": "Episesarma versicolor",
+   "en": "Violet vinegar crab",
+   "th": "ปูแสมก้ามม่วง"
+  },
+  {
+   "family": "Grapsidae",
+   "sci": "Metopograpsus frontalis",
+   "en": "Purple climber crab",
+   "th": "ปูแสมก้ามม่วง"
+  },
+  {
+   "family": "Sesarmidae",
+   "sci": "Parasesarma plicatum",
+   "en": "Orange-claw marsh crab",
+   "th": "ปูแสมก้ามส้ม"
+  },
+  {
+   "family": "Sesarmidae",
+   "sci": "Sarmatium germaini",
+   "en": "Mound crab",
+   "th": "ปูแสม"
+  },
+  {
+   "family": "Mictyridae",
+   "sci": "Mictyris thailandensis",
+   "en": "Soldier crab",
+   "th": "ปูทหาร"
+  },
+  {
+   "family": "Dotillidae",
+   "sci": "Dotillopsis brevitarsis",
+   "en": "Mud soldier crab",
+   "th": "ปูทหารชายเลน"
+  },
+  {
+   "family": "Ocypodidae",
+   "sci": "Ocypode ceratophthalmus",
+   "en": "Horned ghost",
+   "th": "ปูลมใหญ่"
+  },
+  {
+   "family": "Ocypodidae",
+   "sci": "Uca annulipes",
+   "en": "Fiddler crab",
+   "th": "ปูก้ามดาบ"
+  },
+  {
+   "family": "Ocypodidae",
+   "sci": "Uca bengali",
+   "en": "Bengal fiddler crab",
+   "th": "ปูก้ามดาบเบงกอล"
+  },
+  {
+   "family": "Macrophthalmidae",
+   "sci": "Macrophthalmus pacificus",
+   "en": "Sentinel crab",
+   "th": "ปูก้ามหักก้ามฟ้า"
+  },
+  {
+   "family": "Portunidae",
+   "sci": "Portunus pelagicus",
+   "en": "Blue swimming crab",
+   "th": "ปูม้า"
+  },
+  {
+   "family": "Portunidae",
+   "sci": "Scylla olivacea",
+   "en": "Orange mud crab",
+   "th": "ปูทะเล"
+  },
+  {
+   "family": "Portunidae",
+   "sci": "Thalamita crenata",
+   "en": "Crenate swimming crab",
+   "th": "ปูหินเขียว"
+  },
+  {
+   "family": "Elopidae",
+   "sci": "Elops hawaiensis",
+   "en": "Hawaiian ladyfish",
+   "th": "ปลาตาเหลือกยาว"
+  },
+  {
+   "family": "Megalopidae",
+   "sci": "Megalops cyprinoides",
+   "en": "Indo-pacific tarpon",
+   "th": "ปลาตาเหลือกสั้น"
+  },
+  {
+   "family": "Engraulidae",
+   "sci": "Stolephorus indicus",
+   "en": "Indian anchovy",
+   "th": "ปลากะตักควาย"
+  },
+  {
+   "family": "Engraulidae",
+   "sci": "Thryssa hamiltonii",
+   "en": "Hamilton's thryssa",
+   "th": "ปลาแมว"
+  },
+  {
+   "family": "Engraulidae",
+   "sci": "Thryssa setirostris",
+   "en": "Long jaw thryssa",
+   "th": "ปลางา"
+  },
+  {
+   "family": "Clupeidae",
+   "sci": "Anodontostoma chacunda",
+   "en": "Chacunda gizzard shad",
+   "th": "ปลาตะเพียนน้าเค็ม"
+  },
+  {
+   "family": "Clupeidae",
+   "sci": "Escualosa thoracata",
+   "en": "White sardine",
+   "th": "ปลากะตักแก้ว"
+  },
+  {
+   "family": "Plotosidae",
+   "sci": "Plotosus canius",
+   "en": "Gray eel-catfish",
+   "th": "ปลาดุกทะเล"
+  },
+  {
+   "family": "Ariidae",
+   "sci": "Hexanematichthys sagor",
+   "en": "Sargor catfish",
+   "th": "ปลากดขี้ลิง"
+  },
+  {
+   "family": "Bagridae",
+   "sci": "Mystus gulio",
+   "en": "Long whiskers catfish",
+   "th": "ปลาอีกง"
+  },
+  {
+   "family": "Mugilidae",
+   "sci": "Chelon subviridis",
+   "en": "Greenback mullet",
+   "th": "ปลากระบอกดา"
+  },
+  {
+   "family": "Mugilidae",
+   "sci": "Ellochelon vaigiensis",
+   "en": "Squaretail mullet",
+   "th": "ปลากระบอกท่อนใต้"
+  },
+  {
+   "family": "Atherinidae",
+   "sci": "Atherinomorus duodecimalis",
+   "en": "Tropical silverside",
+   "th": "ปลาหัวแข็ง"
+  },
+  {
+   "family": "Atherinidae",
+   "sci": "Hypoatherina valenciennei",
+   "en": "Sumatran silverside",
+   "th": "ปลาหัวตะกั่ว"
+  },
+  {
+   "family": "Adrianichthyidae",
+   "sci": "Oryzias javanicus",
+   "en": "Javanese rice fish",
+   "th": "ปลาซิวข้าวสารชวา"
+  },
+  {
+   "family": "Hemiramphidae",
+   "sci": "Hyporhamphus limbatus",
+   "en": "Congaturi halfbeak",
+   "th": "ปลาเข็มปากแดง"
+  },
+  {
+   "family": "Zenarchopteridae",
+   "sci": "Zenarchopterus buffonis",
+   "en": "Buffon's river-garfish",
+   "th": "ปลากระทุงเหว"
+  },
+  {
+   "family": "Zenarchopteridae",
+   "sci": "Zenarchopterus dunckeri",
+   "en": "Duncker's river garfish",
+   "th": "ปลาเข็ม"
+  }
+ ],
+ "fish": [
+  {
+   "family": "Belonidae",
+   "sci": "Strongylura strongylura",
+   "en": "Spottail needlefish",
+   "th": "ปลากระทุงเหวควาย"
+  },
+  {
+   "family": "Aplocheilidae",
+   "sci": "Aplocheilus panchax",
+   "en": "Blue panchax",
+   "th": "ปลาหัวตะกั่ว"
+  },
+  {
+   "family": "Tetrarogidae",
+   "sci": "Vespicula trachinoides",
+   "en": "Goblinfish",
+   "th": "ปลาขี้ขุยหางขาว"
+  },
+  {
+   "family": "Platycephalidae",
+   "sci": "Platycephalus indicus",
+   "en": "Bartail flathead",
+   "th": "ปลาหัวแบน"
+  },
+  {
+   "family": "Ambassidae",
+   "sci": "Ambassis gymnocephalus",
+   "en": "Bald glassy",
+   "th": "ปลาขี้จีน"
+  },
+  {
+   "family": "Ambassidae",
+   "sci": "Ambassis interruptus",
+   "en": "Sailfin glassfish",
+   "th": "ปลาแป้นแก้วครีบยาว"
+  },
+  {
+   "family": "Ambassidae",
+   "sci": "Ambassis urotaenia",
+   "en": "Banded-tail glassy perchlet",
+   "th": "ปลาแป้นแก้วหางแถบ"
+  },
+  {
+   "family": "Ambassidae",
+   "sci": "Ambassis vachellii",
+   "en": "Vachelli's glass perchlet",
+   "th": "ปลาแป้นแก้วตัวเรียว"
+  },
+  {
+   "family": "Latidae",
+   "sci": "Lates calcarifer",
+   "en": "Barramundi",
+   "th": "ปลากะพงขาว"
+  },
+  {
+   "family": "Serranidae",
+   "sci": "Epinepheus coioides",
+   "en": "Orange-spotted grouper",
+   "th": "ปลากะรังจุดส้ม"
+  },
+  {
+   "family": "Apogonidae",
+   "sci": "Apogon hyalosoma",
+   "en": "Humpbacked cardinalfish",
+   "th": "ปลาอมไข่"
+  },
+  {
+   "family": "Sillaginidae",
+   "sci": "Sillago sihama",
+   "en": "Silver sillago",
+   "th": "ปลาช่อนทรายแก้ว"
+  },
+  {
+   "family": "Carangidae",
+   "sci": "Caranx sexfasciatus",
+   "en": "Bigeye trevally",
+   "th": "ปลาหางกิ่วหม้อ"
+  },
+  {
+   "family": "Carangidae",
+   "sci": "Scomberoides commersonnianus",
+   "en": "Talang queenfish",
+   "th": "ปลาสีเสียด"
+  },
+  {
+   "family": "Leiognathidae",
+   "sci": "Aurigequula fasciatus",
+   "en": "Striped ponyfish",
+   "th": "ปลาแป้นยักษ์ลาย"
+  },
+  {
+   "family": "Leiognathidae",
+   "sci": "Leiognathus equulus",
+   "en": "Common ponyfish",
+   "th": "ปลาแป้นยักษ์"
+  },
+  {
+   "family": "Leiognathidae",
+   "sci": "Nuchequula gerreoides",
+   "en": "Decorated ponyfish",
+   "th": "ปลาแป้นจมูกสั้น"
+  },
+  {
+   "family": "Leiognathidae",
+   "sci": "Secutor insidiator",
+   "en": "Pugnose ponyfish",
+   "th": "ปลาแป้นปากหมู"
+  },
+  {
+   "family": "Leiognathidae",
+   "sci": "Secutor ruconius",
+   "en": "Deep pugnose ponyfish",
+   "th": "ปลาแป้นป้อม"
+  },
+  {
+   "family": "Lutjanidae",
+   "sci": "Lutjanus argentimaculatus",
+   "en": "Mangrove red snapper",
+   "th": "ปลากะพงแดง"
+  },
+  {
+   "family": "Lutjanidae",
+   "sci": "Lutjanus russelli",
+   "en": "Russell's snapper",
+   "th": "ปลากะพงเหลืองข้างปาน"
+  },
+  {
+   "family": "Gerreidae",
+   "sci": "Gerres erythrourus",
+   "en": "Deep-bodied mojarra",
+   "th": "ปลาดอกหมากครีบสั้น"
+  },
+  {
+   "family": "Gerreidae",
+   "sci": "Gerres filamentosus",
+   "en": "Whipfin silver-biddy",
+   "th": "ปลาดอกหมากกระโดง"
+  },
+  {
+   "family": "Gerreidae",
+   "sci": "Gerres macracanthus",
+   "en": "Longspine silver-biddy",
+   "th": "ปลาดอกหมาก"
+  },
+  {
+   "family": "Gerreidae",
+   "sci": "Gerres oblongus",
+   "en": "Slender silver-biddy",
+   "th": "ปลาดอกหมาก"
+  },
+  {
+   "family": "Haemulidae",
+   "sci": "Plectorhinchus gibbosus",
+   "en": "Harry hotlips",
+   "th": "ปลาสร้อยนกเขาปากหมู"
+  },
+  {
+   "family": "Haemulidae",
+   "sci": "Pomadasys kaakan",
+   "en": "Javelin grunter",
+   "th": "ปลาครืดคราด"
+  },
+  {
+   "family": "Sciaenidae",
+   "sci": "Johnius belangerii",
+   "en": "Belanger's croaker",
+   "th": "ปลาจวดหางพัด"
+  },
+  {
+   "family": "Sciaenidae",
+   "sci": "Otolithes ruber",
+   "en": "Tigertooth croaker",
+   "th": "ปลาจวดเตียนเขี้ยว"
+  },
+  {
+   "family": "Sciaenidae",
+   "sci": "Upeneus tragula",
+   "en": "Freckled goatfish",
+   "th": "ปลาแพะลาย"
+  },
+  {
+   "family": "Monodactylidae",
+   "sci": "Monodactylus argenteus",
+   "en": "Silver moony",
+   "th": "ปลาเฉี่ยวหิน"
+  },
+  {
+   "family": "Toxotidae",
+   "sci": "Toxotes jaculatrix",
+   "en": "Banded archerfish",
+   "th": "ปลาเสือพ่นน้าน้ากร่อย"
+  },
+  {
+   "family": "Drepaneidae",
+   "sci": "Drepane punctata",
+   "en": "Spotted sicklefish",
+   "th": "ปลาใบโพธิ์จุด"
+  },
+  {
+   "family": "Teraponidae",
+   "sci": "Terapon jarbua",
+   "en": "Jarbua terapon",
+   "th": "ปลาข้างตะเภาลายโค้ง"
+  },
+  {
+   "family": "Eleotridae",
+   "sci": "Butis butis",
+   "en": "Duckbill sleeper",
+   "th": "ปลาบู่เกล็ดแข็ง"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Acentrogobius nebulosus",
+   "en": "Shadow goby",
+   "th": "ปลาบู่จุดน้าตาล"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Acentrogobius viridipunctatus",
+   "en": "Spotted green goby",
+   "th": "ปลาบู่หัวโต"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Amoya moloanus",
+   "en": "Barcheek amoya",
+   "th": "ปลาบู่"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Glossogobius circumspectus",
+   "en": "Circumspect goby",
+   "th": "ปลาบู่"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Glossogobius giuris",
+   "en": "Tank goby",
+   "th": "ปลาบู่จาก"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Periophthalmus chrysospilos",
+   "en": "Mudskipper",
+   "th": "ปลาตีน"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Periophthalmus kalolo",
+   "en": "Common mudskipper",
+   "th": "ปลาตีน"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Periophthalmus minutus",
+   "en": "Minute mudskipper",
+   "th": "ปลาตีน"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Psammogobius biocellatus",
+   "en": "Sleepy goby",
+   "th": "ปลาบู่หัวแบน"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Pseudogobius javanicus",
+   "en": "Java fat-nose goby",
+   "th": "ปลาบู่ชวา"
+  },
+  {
+   "family": "Gobiidae",
+   "sci": "Stigmatogobius sadanundio",
+   "en": "Spotted goby",
+   "th": "ปลาบู่จุด"
+  },
+  {
+   "family": "Scatophagidae",
+   "sci": "Scatophagus argus",
+   "en": "Spotted scat",
+   "th": "ปลาตะกรับ"
+  },
+  {
+   "family": "Siganidae",
+   "sci": "Siganus guttatus",
+   "en": "Goldlined spinefoot",
+   "th": "ปลาสลิดหินจุดแดง"
+  },
+  {
+   "family": "Siganidae",
+   "sci": "Siganus javus",
+   "en": "Streaked spinefoot",
+   "th": "ปลาสลิดหินแขก"
+  },
+  {
+   "family": "Siganidae",
+   "sci": "Siganus vermiculatus",
+   "en": "Vermiculated spinefoot",
+   "th": "ปลาสลิดหิน"
+  },
+  {
+   "family": "Sphyraenidae",
+   "sci": "Sphyraena jello",
+   "en": "Pickhandle barracuda",
+   "th": "ปลาสากเทา"
+  },
+  {
+   "family": "Paralichthyidae",
+   "sci": "Pseudorhombus arsius",
+   "en": "Largetooth flounder",
+   "th": "ปลาลิ้นควายฟันใหญ่"
+  },
+  {
+   "family": "Cynoglossidae",
+   "sci": "Cynoglossus puncticeps",
+   "en": "Speckled tonguesole",
+   "th": "ปลาลิ้นหมา"
+  },
+  {
+   "family": "Tetraodontidae",
+   "sci": "Arothron reticularis",
+   "en": "Reticulated pufferfish",
+   "th": "ปลาปักเป้าลายตาข่าย"
+  },
+  {
+   "family": "Tetraodontidae",
+   "sci": "Chelonodon patoca",
+   "en": "Milk-spotted puffer",
+   "th": "ปลาปักเป้าตุ๊กแก"
+  },
+  {
+   "family": "Tetraodontidae",
+   "sci": "Lagocephalus lunaris",
+   "en": "Lunartail puffer",
+   "th": "ปลาปักเป้าหลังเขียว"
+  },
+  {
+   "family": "Tetraodontidae",
+   "sci": "Takifugu oblongus",
+   "en": "Oblong blowfish",
+   "th": "ปลาปักเป้าลายพาดกลอน"
+  },
+  {
+   "family": "Tetraodontidae",
+   "sci": "Tetraodon nigroviridis",
+   "en": "Spotted green pufferfish",
+   "th": "ปลาเป้าเขียวจุด"
+  }
+ ],
+ "invertebrateCount": 53,
+ "fishCount": 58
+}
